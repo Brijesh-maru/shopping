@@ -1,0 +1,166 @@
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+/* 1320px wide container */
+.container-1320 {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Full height + background for each slide */
+.carousel-slide-wrapper {
+  /* background-image: url("./img/slide-1.jpg"); */
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Content wrapper inside each slide */
+.carousel-content {
+  color: #000;
+  max-width: 600px;
+  padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+  .carousel-slide-wrapper {
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .carousel-content {
+    padding: 0 20px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.deals-countdown .countdown-section {
+  position: relative;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1;
+  padding: 14px 5px 26px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+.deals-countdown .countdown-section .countdown-amount {
+  display: inline-block;
+  color: gray;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  max-width: 100%;
+}
+
+.deals-countdown .countdown-section .countdown-period {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 10px;
+  display: block;
+  color: gray;
+  width: 100%;
+  text-transform: capitalize;
+}
+* {
+  box-sizing: border-box;
+}
+.footer {
+  background-color: lightgray;
+}
+.row {
+  flex-wrap: wrap;
+}
+.mb-6 {
+  font-size: 40px;
+  color: green;
+}
+.btn-float-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.py-10 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.px-8 {
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+}
+
+.pt-8 {
+  padding-top: 2rem !important;
+}
+
+.px-6 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+/* .carousel-slide-wrapper {
+  background-image: url("/img/slide-1.jpg");
+}
+.carousel-slide-wrapper {
+  background-image: url("/img/slide-2.jpg");
+}
+.container .fruits1 {
+  background-image: url("/img/fruit1.png");
+}
+.container .fruits2 {
+  background-image: url("/img/fruit2.jpg");
+} */
+.mb-4 {
+  margin-left: 16px;
+}
+.card-product {
+  transition: 2s;
+}
+.footer .nav .nav-item .nav-link {
+  color: black;
+}
+.footer .nav .nav-item .nav-link:hover {
+  color: green;
+}
+
+.btn-outline-gray-400 {
+  border-color: #c1c7c6;
+  border-radius: 4px;
+}
+
+.dropdown {
+  position: relative;
+}
